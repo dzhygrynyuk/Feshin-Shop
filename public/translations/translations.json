@@ -1,5 +1,8 @@
 {
   "en": {
+    "common": {
+      "more": "More"
+    },
     "header": {
       "menu_btn": "Menu"
     },
@@ -32,9 +35,27 @@
       "notebook": "Notebooks",
       "t-shirts": "T-shirts",
       "main_heading": "Comparison"
+    },
+    "breadcrumbs": {
+      "main": "Main",
+      "comparison": "Comparison",
+      "cart": "Cart",
+      "favorites": "Favorites",
+      "catalog": "Catalog",
+      "profile": "Profile",
+      "cloth": "Cloth",
+      "accessories": "Accessories",
+      "office": "Office",
+      "souvenirs": "Souvenirs",
+      "order": "Placing an order",
+      "personal_data_policy": "Data processing policy",
+      "privacy_policy": "Privacy policy"
     }
   },
   "ua": {
+    "common": {
+      "more": "Ще"
+    },
     "header": {
       "menu_btn": "Меню"
     },
@@ -67,6 +88,21 @@
       "notebook": "Зошити",
       "t-shirts": "Футболки",
       "main_heading": "Порівняння"
+    },
+    "breadcrumbs": {
+      "main": "Головна",
+      "comparison": "Порівняння",
+      "cart": "Кошик",
+      "favorites": "Вибране",
+      "catalog": "Каталог",
+      "profile": "Профіль",
+      "cloth": "Одяг",
+      "accessories": "Аксесуари",
+      "office": "Канцелярія",
+      "souvenirs": "Сувеніри",
+      "order": "Оформлення замовлення",
+      "personal_data_policy": "Політика обробки даних",
+      "privacy_policy": "Політика конфіденційності"
     }
   }
 }
