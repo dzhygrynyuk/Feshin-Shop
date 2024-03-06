@@ -7,6 +7,7 @@ import SearchModal from "../modules/Header/SearchModal";
 import { $searchModaIsOpen } from "@/context/modals";
 import { useUnit } from "effector-react";
 import { handleCloseSearchModal } from "@/libs/utils/common";
+import Footer from "../modules/Footer/Footer";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     const searchModaIsOpen = useUnit($searchModaIsOpen);
@@ -33,7 +34,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 onClick={handleCloseSearchModal}
             >
             </div>
-            <div className="footer" />
+            <Footer />
         </>
     );
 };

@@ -53,6 +53,13 @@
       "order": "Placing an order",
       "personal_data_policy": "Data processing policy",
       "privacy_policy": "Privacy policy"
+    },
+    "footer": {
+      "copyright": "«Vepryk» All rights reserved",
+      "policy": "Data processing policy",
+      "privacy": "Privacy policy",
+      "mobile_version": "Mobile version",
+      "full_version": "Full version of the site"
     }
   },
   "ua": {
@@ -109,6 +116,13 @@
       "order": "Оформлення замовлення",
       "personal_data_policy": "Політика обробки даних",
       "privacy_policy": "Політика конфіденційності"
+    },
+    "footer": {
+      "copyright": "«Веприк» Всі права захищені",
+      "policy": "Політика обробки даних",
+      "privacy": "Політика конфіденційності",
+      "mobile_version": "Мобільна версія",
+      "full_version": "Повна версія сайту"
     }
   }
 }
