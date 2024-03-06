@@ -5,7 +5,7 @@ import Link from "next/link";
 import Menu from "./Menu";
 import { openMenu, openSearchModal } from "@/context/modals";
 import { addOverflowHiddenToBody } from "@/libs/utils/common";
-import CartPopup from "./CartPopup/CartPopup";
+import CartPopup from "../CartPopup/CartPopup";
 
 const Header = () => {
     const { lang, translations } = useLang();
