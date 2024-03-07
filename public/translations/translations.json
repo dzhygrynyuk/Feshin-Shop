@@ -66,7 +66,7 @@
       "hero_hidden_title": "Clothing store «Vepryk»",
       "hero_title": "Vepryk",
       "hero_description": "Be in style",
-      "hero_subtitle": "with the new “Line” collection",
+      "hero_subtitle": "with the new “Petro Schur” collection",
       "catalog_btn": "Catalog",
       "category_title": "Categories",
       "category_cloth": "Cloth",
@@ -82,7 +82,7 @@
       "is_new": "New",
       "is_bestseller": "Bestseller",
       "tShirt": "T-Shirt",
-      "violet": "violet",
+      "gray": "gray",
       "orange": "orange",
       "black": "black"
     }
@@ -154,7 +154,7 @@
       "hero_hidden_title": "Магазин одягу «Веприк»",
       "hero_title": "Веприк",
       "hero_description": "Будь на стилі",
-      "hero_subtitle": "з новою колекцією «Line»",
+      "hero_subtitle": "з новою колекцією «Petro Schur»",
       "catalog_btn": "Каталог",
       "category_title": "Категорії",
       "category_cloth": "Одяг",
@@ -170,7 +170,7 @@
       "is_new": "Новинка",
       "is_bestseller": "Хіт",
       "tShirt": "Футболка",
-      "violet": "фіолетова",
+      "gray": "сіра",
       "orange": "помаранчева",
       "black": "чорна"
     }

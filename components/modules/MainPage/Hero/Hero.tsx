@@ -13,7 +13,7 @@ import styles from "@/styles/main-page/index.module.scss";
 
 import img1 from '@/public/img/black-t.png'
 import img2 from '@/public/img/orange-t.png'
-import img3 from '@/public/img/violet-t.png'
+import img3 from '@/public/img/gray-t.png'
 
 const Hero = () => {
     const { lang, translations } = useLang();
@@ -22,17 +22,17 @@ const Hero = () => {
     const slides = [
         {
             id: 1,
-            title: `${translations[lang].main_page.tShirt} «Line» ${translations[lang].main_page.black}`,
-            image: img1,
-        },
-        {
-            id: 2,
-            title: `${translations[lang].main_page.tShirt} «Line» ${translations[lang].main_page.orange}`,
+            title: `${translations[lang].main_page.tShirt} «Petro Schur» ${translations[lang].main_page.orange}`,
             image: img2,
         },
         {
+            id: 2,
+            title: `${translations[lang].main_page.tShirt} «Petro Schur» ${translations[lang].main_page.black}`,
+            image: img1,
+        },
+        {
             id: 3,
-            title: `${translations[lang].main_page.tShirt} «Line» ${translations[lang].main_page.violet}`,
+            title: `${translations[lang].main_page.tShirt} «Petro Schur» ${translations[lang].main_page.gray}`,
             image: img3,
         },
     ];
