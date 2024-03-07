@@ -2,6 +2,7 @@
   "en": {
     "common": {
       "more": "More",
+      "ad": "Ad",
       "order_price": "Order price"
     },
     "header": {
@@ -60,11 +61,36 @@
       "privacy": "Privacy policy",
       "mobile_version": "Mobile version",
       "full_version": "Full version of the site"
+    },
+    "main_page": {
+      "hero_hidden_title": "Clothing store «Vepryk»",
+      "hero_title": "Vepryk",
+      "hero_description": "Be in style",
+      "hero_subtitle": "with the new “Line” collection",
+      "catalog_btn": "Catalog",
+      "category_title": "Categories",
+      "category_cloth": "Cloth",
+      "category_office": "Office",
+      "category_accessories": "Accessories",
+      "category_souvenirs": "Souvenirs",
+      "bestsellers_title": "Bestsellers",
+      "new_title": "New",
+      "brand_title": "Life of our brand",
+      "brand_nature": "With care for nature",
+      "brand_look": "New look at merch",
+      "brand_idea": "Idea of the collection «Black»",
+      "is_new": "New",
+      "is_bestseller": "Bestseller",
+      "tShirt": "T-Shirt",
+      "violet": "violet",
+      "orange": "orange",
+      "black": "black"
     }
   },
   "ua": {
     "common": {
       "more": "Ще",
+      "ad": "Реклама",
       "order_price": "Сума замовлення"
     },
     "header": {
@@ -123,6 +149,30 @@
       "privacy": "Політика конфіденційності",
       "mobile_version": "Мобільна версія",
       "full_version": "Повна версія сайту"
+    },
+    "main_page": {
+      "hero_hidden_title": "Магазин одягу «Веприк»",
+      "hero_title": "Веприк",
+      "hero_description": "Будь на стилі",
+      "hero_subtitle": "з новою колекцією «Line»",
+      "catalog_btn": "Каталог",
+      "category_title": "Категорії",
+      "category_cloth": "Одяг",
+      "category_office": "Канцелярія",
+      "category_accessories": "Аксесуари",
+      "category_souvenirs": "Сувеніри",
+      "bestsellers_title": "Хіти",
+      "new_title": "Новинки",
+      "brand_title": "Життя нашого бренду",
+      "brand_nature": "З турботою про природу",
+      "brand_look": "Новий погляд на мерч",
+      "brand_idea": "Ідея колекції «Black»",
+      "is_new": "Новинка",
+      "is_bestseller": "Хіт",
+      "tShirt": "Футболка",
+      "violet": "фіолетова",
+      "orange": "помаранчева",
+      "black": "чорна"
     }
   }
 }
