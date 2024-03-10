@@ -86,6 +86,26 @@
       "gray": "gray",
       "orange": "orange",
       "black": "black"
+    },
+    "product": {
+      "available": "Available",
+      "not_available": "Not available",
+      "vendor_code": "Vendor",
+      "size_table": "Size table",
+      "count": "Count",
+      "to_cart": "To cart",
+      "to_favorite": "To favorite",
+      "description": "Description",
+      "characteristics": "Characteristics",
+      "collection_goods": "Products from the collection",
+      "watched": "You watched",
+      "add_to_favorites": "Add to favorites",
+      "add_to_comparison": "Add to comparison",
+      "quick_view": "Quick view",
+      "total_in_cart": "Total in cart",
+      "more": "More information about the product",
+      "composition": "Composition",
+      "in_cart": "Added"
     }
   },
   "ua": {
@@ -175,6 +195,26 @@
       "gray": "сіра",
       "orange": "помаранчева",
       "black": "чорна"
+    },
+    "product": {
+      "available": "Є в наявності",
+      "not_available": "Немає в наявності",
+      "vendor_code": "Арт",
+      "size_table": "Таблиця розмірів",
+      "count": "Кількість",
+      "to_cart": "В коши",
+      "to_favorite": "У обране",
+      "description": "Опис",
+      "characteristics": "Характеристики",
+      "collection_goods": "Товари колекції",
+      "watched": "Ви дивилися",
+      "add_to_favorites": "Додати в обране",
+      "add_to_comparison": "Додати до порівняння",
+      "quick_view": "Швидкий перегляд",
+      "total_in_cart": "Всього у кошик",
+      "more": "Більше інформації про товар",
+      "composition": "Cклад",
+      "in_cart": "Додано"
     }
   }
 }

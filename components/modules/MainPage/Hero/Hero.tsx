@@ -8,16 +8,17 @@ import HeroSlide from "./HeroSlide";
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
-import styles from "@/styles/main-page/index.module.scss";
 
+import styles from "@/styles/main-page/index.module.scss";
+import adStyles from "@/styles/ad/index.module.scss";
 
 import img1 from '@/public/img/black-t.png'
 import img2 from '@/public/img/orange-t.png'
 import img3 from '@/public/img/gray-t.png'
+import ProductSubtitle from "@/components/elements/ProductSubtitle/ProductSubtitle";
 
 const Hero = () => {
     const { lang, translations } = useLang();
-    const descriptionSlicePosition = lang === 'ua' ? 4 : 2;
 
     const slides = [
         {
@@ -43,7 +44,7 @@ const Hero = () => {
         <section className={styles.hero}>
             <h1 className="visually-hidden">{translations[lang].main_page.hero_hidden_title}</h1>
             <div className={`container ${styles.hero__container}`}>
-                <span className={styles.ad}>{translations[lang].common.ad}</span>
+                <span className={adStyles.ad}>{translations[lang].common.ad}</span>
                 <Swiper
                     className={styles.hero__slider}
                     effect='coverflow'
@@ -68,12 +69,7 @@ const Hero = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-                <div className={styles.hero__subtitle}>
-                    <div className={styles.hero__subtitle__rect} />
-                    <span>{translations[lang].main_page.hero_description.slice(0, descriptionSlicePosition)}</span>
-                    <br/>
-                    <span>{translations[lang].main_page.hero_description.slice(descriptionSlicePosition)}</span>
-                </div>
+                <ProductSubtitle />
                 <h2 className={styles.hero__title}>
                     <span className={`${styles.hero__title__subtitle} ${lang === 'ua' ? '' : styles.hero__title__subtitle__lang}`}>
                         [ {translations[lang].main_page.hero_subtitle} ]
