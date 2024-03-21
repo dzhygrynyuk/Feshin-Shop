@@ -66,8 +66,10 @@ export const createUserAndGenerateToken = async (
         name: reqBody.name,
         password: hash,
         email: reqBody.email,
-
+        image: '',
     });
+
+    return generateTokens(reqBody.name, reqBody.email);
 };
 
 export const findUserByEmail = async (db: Db, email: string) => db.collection('users').findOne({ email });

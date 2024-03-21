@@ -1,7 +1,8 @@
 'use client'
+import { useUnit } from "effector-react";
+import { Toaster } from "react-hot-toast";
 import { $quickViewModal, $showSizeTable, closeQuickViewModal } from "@/context/modals";
 import Layout from "./Layout";
-import { useUnit } from "effector-react";
 import { closeSizeTableByCheck, handleCloseAuthPopup, removeOverflowHiddenFromBody } from "@/libs/utils/common";
 import { $openAuthPopup } from "@/context/auth";
 
@@ -33,6 +34,7 @@ const PagesLayout = ({ children }: { children: React.ReactNode }) => {
                     className={`auth-overlay ${openAuthPopup ? 'overlay-active' : ''}`}
                     onClick={handleCloseAuthPopup}
                 />
+                <Toaster position='top-center' reverseOrder={false} />
             </body>
         </html>
     );
