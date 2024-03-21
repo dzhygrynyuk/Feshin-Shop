@@ -140,6 +140,31 @@
       "waist_circumference": "Waist circumference, cm",
       "hip_circumference": "Hip circumference, cm",
       "title": "Size table"
+    },
+    "auth_popup": {
+      "registration_title": "Registration",
+      "registration_text": "Create",
+      "registration_description": "Create an account",
+      "registration_question": "Already have an account?",
+      "login_text": "Login",
+      "login_description": "Login to your account",
+      "forgot_password": "Forgot your password?",
+      "login_question": "Don't have an account yet?",
+      "register": "Register!",
+      "name": "Name",
+      "password": "Password"
+    },
+    "validation": {
+      "invalid_value": "Invalid value!",
+      "requiredName": "Enter your name!",
+      "invalid_phone": "Invalid phone!",
+      "required_email": "Enter your email!",
+      "invalid_email": "Invalid email!",
+      "min_2": "Min 2 characters!",
+      "max_15": "Max 2 characters!",
+      "required_password": "Enter your password!",
+      "min_4": "Min 4 characters!",
+      "max_20": "Max 20 characters!"
     }
   },
   "ua": {
@@ -283,6 +308,31 @@
       "waist_circumference": "Обхват талії, в см",
       "hip_circumference": "Обхват стегон, в см",
       "title": "Таблиця розмірів"
+    },
+    "auth_popup": {
+      "registration_title": "Реєстрація",
+      "registration_text": "Створити",
+      "registration_description": "Створити акаунт",
+      "registration_question": "Вже є акаунт?",
+      "login_text": "Увійти",
+      "login_description": "Ввійти в свій аккаунт",
+      "forgot_password": "Забули пароль?",
+      "login_question": "Ще немає аккаунта?",
+      "register": "Зареєструватись!",
+      "name": "Ім'я",
+      "password": "Пароль"
+    },
+    "validation": {
+      "invalid_value": "Недопустиме значення!",
+      "requiredName": "Введіть ім'я!",
+      "invalid_phone": "Неправильний телефон!",
+      "required_email": "Введіть email!",
+      "invalid_email": "Неправильний Email!",
+      "min_2": "Мінімум 2 символа!",
+      "max_15": "Не більше 15 символів!",
+      "required_password": "Введіть пароль!",
+      "min_4": "Мінімум 4 символа!",
+      "max_20": "Не більше 20 символів!"
     }
   }
 }

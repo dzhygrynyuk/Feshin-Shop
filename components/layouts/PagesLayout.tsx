@@ -2,11 +2,13 @@
 import { $quickViewModal, $showSizeTable, closeQuickViewModal } from "@/context/modals";
 import Layout from "./Layout";
 import { useUnit } from "effector-react";
-import { closeSizeTableByCheck, removeOverflowHiddenFromBody } from "@/libs/utils/common";
+import { closeSizeTableByCheck, handleCloseAuthPopup, removeOverflowHiddenFromBody } from "@/libs/utils/common";
+import { $openAuthPopup } from "@/context/auth";
 
 const PagesLayout = ({ children }: { children: React.ReactNode }) => {
     const showQuickViewModal = useUnit($quickViewModal);
     const showSizaTable = useUnit($showSizeTable);
+    const openAuthPopup = useUnit($openAuthPopup);
 
     const handleCloseQuickViewModal = () => {
         removeOverflowHiddenFromBody();
@@ -26,6 +28,10 @@ const PagesLayout = ({ children }: { children: React.ReactNode }) => {
                 <div 
                     className={`size-table-overlay ${showSizaTable ? 'overlay-active' : ''}`}
                     onClick={handleCloseSizeTable}
+                />
+                <div
+                    className={`auth-overlay ${openAuthPopup ? 'overlay-active' : ''}`}
+                    onClick={handleCloseAuthPopup}
                 />
             </body>
         </html>
